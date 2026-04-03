@@ -1,6 +1,6 @@
 // Initialize the Supabase Client
-const supabaseUrl = 'YOUR_SUPABASE_URL_HERE';
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY_HERE';
+const supabaseUrl = 'https://bqynvgyeovvstlohignu.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJxeW52Z3llb3Z2c3Rsb2hpZ251Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyMjM4MTMsImV4cCI6MjA5MDc5OTgxM30.cEQFrl3fzvtlvmVZ0r6QzFszarvCjtyT6JLt683RRGg';
 const _supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // Link the HTML form to this script
